@@ -24,17 +24,17 @@ class SignupForm extends Component{
     {
         if (this.state.username === "Jose")
         {
-          window.location.href = "http://localhost:3000/jose";
+          window.location.href = "http://localhost:3000/jose/";
         }
 
         if (this.state.username === "Damian")
         {
-          window.location.href = "http://localhost:3000/damian";
+          window.location.href = "http://localhost:3000/damian/";
         }
 
         if (this.state.username === "Bing")
         {
-          window.location.href = "http://localhost:3000/bing";
+          window.location.href = "http://localhost:3000/bing/";
         }
     }
 

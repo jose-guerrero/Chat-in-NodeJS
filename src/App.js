@@ -21,7 +21,7 @@ class App extends Component {
   clicking_chat(e){
 
     e.preventDefault();
-    window.location.href = `http://localhost:3000/${this.state.user}/chat/`;
+    window.location.href += "chat/";
 
   }
 
